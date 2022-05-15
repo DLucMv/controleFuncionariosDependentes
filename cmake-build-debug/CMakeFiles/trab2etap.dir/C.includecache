@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lucas/CLionProjects/trab2etap/dependente.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/lucas/CLionProjects/trab2etap/funcionario.c
+funcionario.h
+C:/Users/lucas/CLionProjects/trab2etap/funcionario.h
+dependente.h
+C:/Users/lucas/CLionProjects/trab2etap/dependente.h
+
+C:/Users/lucas/CLionProjects/trab2etap/funcionario.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

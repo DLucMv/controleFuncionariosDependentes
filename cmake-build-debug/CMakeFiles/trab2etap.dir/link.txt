@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\trab2etap.dir/objects.a
+C:\MinGW\32bits\MinGW8.1.0\mingw32\bin\ar.exe qc CMakeFiles\trab2etap.dir/objects.a @CMakeFiles\trab2etap.dir\objects1.rsp
+C:\MinGW\32bits\MinGW8.1.0\mingw32\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\trab2etap.dir/objects.a -Wl,--no-whole-archive -o trab2etap.exe -Wl,--out-implib,libtrab2etap.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\trab2etap.dir\linklibs.rsp
